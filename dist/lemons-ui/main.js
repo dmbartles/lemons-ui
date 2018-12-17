@@ -40,9 +40,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _my_controls_my_controls_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./my-controls/my-controls.component */ "./src/app/my-controls/my-controls.component.ts");
 /* harmony import */ var _my_events_my_events_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./my-events/my-events.component */ "./src/app/my-events/my-events.component.ts");
 /* harmony import */ var _my_risks_my_risks_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./my-risks/my-risks.component */ "./src/app/my-risks/my-risks.component.ts");
-/* harmony import */ var _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contact-us/contact-us.component */ "./src/app/contact-us/contact-us.component.ts");
-/* harmony import */ var _support_support_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./support/support.component */ "./src/app/support/support.component.ts");
-/* harmony import */ var _under_construction_under_construction_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./under-construction/under-construction.component */ "./src/app/under-construction/under-construction.component.ts");
+/* harmony import */ var _my_monitoring_my_monitoring_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./my-monitoring/my-monitoring.component */ "./src/app/my-monitoring/my-monitoring.component.ts");
+/* harmony import */ var _my_monitoring2_my_monitoring2_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./my-monitoring2/my-monitoring2.component */ "./src/app/my-monitoring2/my-monitoring2.component.ts");
+/* harmony import */ var _my_monitoring3_my_monitoring3_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./my-monitoring3/my-monitoring3.component */ "./src/app/my-monitoring3/my-monitoring3.component.ts");
+/* harmony import */ var _my_monitoring4_my_monitoring4_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./my-monitoring4/my-monitoring4.component */ "./src/app/my-monitoring4/my-monitoring4.component.ts");
+/* harmony import */ var _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./contact-us/contact-us.component */ "./src/app/contact-us/contact-us.component.ts");
+/* harmony import */ var _support_support_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./support/support.component */ "./src/app/support/support.component.ts");
+/* harmony import */ var _under_construction_under_construction_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./under-construction/under-construction.component */ "./src/app/under-construction/under-construction.component.ts");
+
+
+
+
 
 
 
@@ -59,9 +67,13 @@ var routes = [
     { path: 'MyControls', component: _my_controls_my_controls_component__WEBPACK_IMPORTED_MODULE_4__["MyControlsComponent"] },
     { path: 'MyEvents', component: _my_events_my_events_component__WEBPACK_IMPORTED_MODULE_5__["MyEventsComponent"] },
     { path: 'MyRisks', component: _my_risks_my_risks_component__WEBPACK_IMPORTED_MODULE_6__["MyRisksComponent"] },
-    { path: 'ContactUs', component: _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_7__["ContactUsComponent"] },
-    { path: 'Support', component: _support_support_component__WEBPACK_IMPORTED_MODULE_8__["SupportComponent"] },
-    { path: 'UnderConstruction', component: _under_construction_under_construction_component__WEBPACK_IMPORTED_MODULE_9__["UnderConstructionComponent"] }
+    { path: 'MyMonitoring', component: _my_monitoring_my_monitoring_component__WEBPACK_IMPORTED_MODULE_7__["MyMonitoringComponent"] },
+    { path: 'MyMonitoring2', component: _my_monitoring2_my_monitoring2_component__WEBPACK_IMPORTED_MODULE_8__["MyMonitoring2Component"] },
+    { path: 'MyMonitoring3', component: _my_monitoring3_my_monitoring3_component__WEBPACK_IMPORTED_MODULE_9__["MyMonitoring3Component"] },
+    { path: 'MyMonitoring4', component: _my_monitoring4_my_monitoring4_component__WEBPACK_IMPORTED_MODULE_10__["MyMonitoring4Component"] },
+    { path: 'ContactUs', component: _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_11__["ContactUsComponent"] },
+    { path: 'Support', component: _support_support_component__WEBPACK_IMPORTED_MODULE_12__["SupportComponent"] },
+    { path: 'UnderConstruction', component: _under_construction_under_construction_component__WEBPACK_IMPORTED_MODULE_13__["UnderConstructionComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -155,6 +167,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _my_risks_my_risks_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./my-risks/my-risks.component */ "./src/app/my-risks/my-risks.component.ts");
 /* harmony import */ var _support_support_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./support/support.component */ "./src/app/support/support.component.ts");
 /* harmony import */ var _under_construction_under_construction_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./under-construction/under-construction.component */ "./src/app/under-construction/under-construction.component.ts");
+/* harmony import */ var _my_monitoring_my_monitoring_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./my-monitoring/my-monitoring.component */ "./src/app/my-monitoring/my-monitoring.component.ts");
+/* harmony import */ var _my_monitoring2_my_monitoring2_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./my-monitoring2/my-monitoring2.component */ "./src/app/my-monitoring2/my-monitoring2.component.ts");
+/* harmony import */ var _my_monitoring4_my_monitoring4_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./my-monitoring4/my-monitoring4.component */ "./src/app/my-monitoring4/my-monitoring4.component.ts");
+/* harmony import */ var _my_monitoring3_my_monitoring3_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./my-monitoring3/my-monitoring3.component */ "./src/app/my-monitoring3/my-monitoring3.component.ts");
+
+
+
+
 
 
 
@@ -180,7 +200,11 @@ var AppModule = /** @class */ (function () {
                 _contact_us_contact_us_component__WEBPACK_IMPORTED_MODULE_8__["ContactUsComponent"],
                 _my_risks_my_risks_component__WEBPACK_IMPORTED_MODULE_9__["MyRisksComponent"],
                 _support_support_component__WEBPACK_IMPORTED_MODULE_10__["SupportComponent"],
-                _under_construction_under_construction_component__WEBPACK_IMPORTED_MODULE_11__["UnderConstructionComponent"]
+                _under_construction_under_construction_component__WEBPACK_IMPORTED_MODULE_11__["UnderConstructionComponent"],
+                _my_monitoring_my_monitoring_component__WEBPACK_IMPORTED_MODULE_12__["MyMonitoringComponent"],
+                _my_monitoring2_my_monitoring2_component__WEBPACK_IMPORTED_MODULE_13__["MyMonitoring2Component"],
+                _my_monitoring4_my_monitoring4_component__WEBPACK_IMPORTED_MODULE_14__["MyMonitoring4Component"],
+                _my_monitoring3_my_monitoring3_component__WEBPACK_IMPORTED_MODULE_15__["MyMonitoring3Component"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -271,7 +295,7 @@ module.exports = "/* Carousel base class */\r\n.carousel {\r\n  margin-bottom: 4
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid\">\n  <div class=\"card-columns\">\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: coral;\">Control: Credit Bureau Reporting Issues</h5>\n      <div class=\"card-body\">\n        <h6 style=\"color:coral;\"><i data-feather=\"alert-triangle\" style=\"color:#coral;\"></i>  Anomalies exceed threshold </h6>\n        <p class=\"card-text mb-auto\">Monthly monitoring of volume of accounts that were reported to the credit bureaus incorrectly</p>\n        <canvas class=\"my-4 w-100\" id=\"myChart\" width=\"450\" height=\"250\"></canvas>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Results</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 3 mins ago by Wendy K.</small>\n      </div>\n    </div>\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: TS2 180-day Charge Off Monitoring</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"watch\"></i>  Control testing due in 12 days</h6>\n        <p class=\"card-text mb-auto\"> Card resiliency performs daily 100% review to ensure complaince with URCCAM</p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Perform Control Testing</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 45 days ago by you</small>\n      </div>\n    </div>\n\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: US Card Electronic Payment Processing</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"award\"></i>  Accountable Executive Approved</h6>\n        <p class=\"card-text mb-auto\">\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n        </p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Control</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 1 days ago by Kara W.</small>\n      </div>\n    </div>\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: Ut Enim Ad Minim Veniam</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"check\"></i>  No Action required</h6>\n        <p class=\"card-text mb-auto\">\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n        </p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Control</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 3 days ago by Matt B.</small>\n      </div>\n    </div>\n\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: Accusantium Doloremque LSaudantium</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"check\"></i>  No Action required</h6>\n        <p class=\"card-text mb-auto\">\n          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\n        </p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Control</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 3 days ago by Matt B.</small>\n      </div>\n    </div>\n\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: Quis Autem Vel Eum Iure Reprehenderit</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"check\"></i>  No Action required</h6>\n        <p class=\"card-text mb-auto\">\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n        </p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Control</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 3 days ago by Matt B.</small>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"container-fluid\">\n  <div class=\"card-columns\">\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: coral;\">Control: Credit Bureau Reporting Issues</h5>\n      <div class=\"card-body\">\n        <h6 style=\"color:coral;\"><i data-feather=\"alert-triangle\" style=\"color:#coral;\"></i>  Anomalies exceed threshold </h6>\n        <p class=\"card-text mb-auto\">Monthly monitoring of volume of accounts that were reported to the credit bureaus incorrectly</p>\n        <canvas class=\"my-4 w-100\" id=\"myChart\" width=\"450\" height=\"250\"></canvas>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"MyControls\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Open Event</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 3 mins ago by Wendy K.</small>\n      </div>\n    </div>\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: TS2 180-day Charge Off Monitoring</h5>\n      <div class=\"card-body\">\n        <h6 style=\"color:coral;\"><i data-feather=\"watch\" style=\"color:coral;\"></i>  Control testing due in 4 days</h6>\n        <p class=\"card-text mb-auto\"> Card resiliency performs daily 100% review to ensure complaince with URCCAM</p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"MyControls\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"MyMonitoring\" class=\"btn btn-sm btn-outline-secondary\">Perform Control Testing</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 45 days ago by you</small>\n      </div>\n    </div>\n\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: US Card Electronic Payment Processing</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"award\"></i>  Accountable Executive Approved</h6>\n        <p class=\"card-text mb-auto\">\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n        </p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"MyControls\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Control</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 1 days ago by Kara W.</small>\n      </div>\n    </div>\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: Ut Enim Ad Minim Veniam</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"check\"></i>  No Action required</h6>\n        <p class=\"card-text mb-auto\">\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n        </p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"MyControls\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Control</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 3 days ago by Matt B.</small>\n      </div>\n    </div>\n\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: Accusantium Doloremque Saudantium</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"check\"></i>  No Action required</h6>\n        <p class=\"card-text mb-auto\">\n          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\n        </p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"MyControls\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Control</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 3 days ago by Matt B.</small>\n      </div>\n    </div>\n\n\n    <div class=\"card shadow-sm\">\n      <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: Quis Autem Vel Eum Iure Reprehenderit</h5>\n      <div class=\"card-body\">\n        <h6><i data-feather=\"check\"></i>  No Action required</h6>\n        <p class=\"card-text mb-auto\">\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n        </p>\n        <br>\n        <div class=\"btn-group\">\n          <a role=\"button\" href=\"MyControls\" class=\"btn btn-sm btn-outline-secondary\">View</a>\n          <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update Control</a>\n        </div>\n      </div>\n      <div class=\"card-footer\">\n        <small class=\"text-muted\">Last updated 3 days ago by Matt B.</small>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -327,7 +351,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  my-controls works!\n</p>\n"
+module.exports = "<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <div class=\"card shadow-sm\">\n        <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Control: Credit Bureau Reporting Issues</h5>\n        <div class=\"card-body\">\n          <h6>Description:</h6>\n          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n          <div class=\"row\">\n            <div class=\"col\">\n              <h6>Accountable Executive:</h6>\n              <p>John Standard</p>\n              <h6>Accountable Executive Designee:</h6>\n              <p>Sarah Valentine</p>\n              <h6>Control Owner:</h6>\n              <p>Jay Watts</p>\n              <h6>Compliance Advisor:</h6>\n              <p>Nigel McRichie</p>\n            </div>\n            <div class=\"col\">\n              <h6>Domains:</h6>\n              <ul>\n                <li>US Branded Card</li>\n                <li>US Card Partnerships</li>\n              </ul>\n              <h6>Executed by:</h6>\n              <p>First Line</p>\n              <h6>ID Number:</h6>\n              <p>CTRL-020030515</p>\n            </div>\n          </div>\n          <div class=\"btn-group\">\n            <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update</a>\n            <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">View History</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <br>\n  <div class=\"row\">\n    <div class=\"col\">\n      <div class=\"card shadow-sm\">\n        <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Status and Approval</h5>\n        <div class=\"card-body\">\n          <div class=\"row\">\n            <div class=\"col\">\n              <h6>Status:</h6>\n              <p><i data-feather=\"check\"></i> Approved</p>\n              <h6>Approved By:</h6>\n              <p>Accountable Executive</p>\n              <h6>Aproval Date:</h6>\n              <p>2018-10-05</p>\n            </div>\n            <div class=\"col\">\n              <h6>Approval Modification</h6>\n              <p>None</p>\n              <h6>Comments:</h6>\n              <p>Matt B. (2018-10-04): Lorem ipsum dolor sit amet, consectetur adipiscing elit! Great Job!</p>\n            </div>\n          </div>\n          <div class=\"btn-group\">\n            <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update</a>\n            <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Comment</a>\n            <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">View History</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <br>\n\n  <div class=\"row\">\n    <div class=\"col\">\n      <div class=\"card shadow-sm\">\n        <h5 class=\"card-header\" style=\"background-color: coral;\">Monthly Monitoring Results</h5>\n        <div class=\"card-body\">\n          <h6 style=\"color:coral;\"><i data-feather=\"alert-triangle\" style=\"color:#coral;\"></i>  Anomalies exceed threshold </h6>\n          <canvas class=\"my-4 w-100\" id=\"myChart2\" width=\"450\" height=\"250\"></canvas>\n\n          <div class=\"row\">\n            <div class=\"col\">\n              <h6>Comments:</h6>\n              <p>Matt B. (2018-02-04): Oh no, opened up risk event, very bad day.</p>\n              <p>Matt B. (2018-12-12): Not again, timing couldn't be worse, very bad day.</p>\n            </div>\n\n          </div>\n          <div class=\"btn-group\">\n            <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Update</a>\n            <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Comment</a>\n            <a role=\"button\" href=\"#\" class=\"btn btn-sm btn-outline-secondary\">Events</a>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </div>\n  <br>\n</div>\n"
 
 /***/ }),
 
@@ -383,7 +407,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- Cards for My Events -->\n<div class=\"container-fluid\">\n  <h1>My Events</h1>\n  <div class=\"row\">\n    <div class=\"col-md-4\">\n      <div class=\"card flex-md-row mb-4 shadow-sm h-md-250\">\n        <div class=\"card-body d-flex flex-column align-items-start\">\n          <strong class=\"d-inline-block mb-2 text-primary\">Card Risk Event</strong>\n          <h4 class=\"mb-0\">\n            <a class=\"text-dark\" href=\"UnderConstruction\">CBD Inaccurate Reporting</a>\n          </h4>\n          <div class=\"mb-1 text-muted\">Open: 67 Days</div>\n          <p class=\"card-text mb-auto\">27 accounts inaccurately reported high balance ammount to the credit bureaus</p>\n          <a href=\"#\">Continue to event</a>\n        </div>\n      </div>\n    </div>\n    <div class=\"col-md-4\">\n      <div class=\"card flex-md-row mb-4 shadow-sm h-md-250\">\n        <div class=\"card-body d-flex flex-column align-items-start\">\n          <strong class=\"d-inline-block mb-2 text-primary\">Card Risk Event</strong>\n          <h4 class=\"mb-0\">\n            <a class=\"text-dark\" href=\"UnderConstruction\">CBD Inaccurate Reporting</a>\n          </h4>\n          <div class=\"mb-1 text-muted\">Open: 26 days</div>\n          <p class=\"card-text mb-auto\">File not properly sent to credit bureaus resulting in missing data</p>\n          <a href=\"#\">Continue to event</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "\n<p>\n  my-events works!\n</p>\n"
 
 /***/ }),
 
@@ -415,6 +439,230 @@ var MyEventsComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], MyEventsComponent);
     return MyEventsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring/my-monitoring.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/my-monitoring/my-monitoring.component.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL215LW1vbml0b3JpbmcvbXktbW9uaXRvcmluZy5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring/my-monitoring.component.html":
+/*!************************************************************!*\
+  !*** ./src/app/my-monitoring/my-monitoring.component.html ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <div class=\"card shadow-sm\">\n        <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Review Control Requirements: TS2 180-day Charge Off Monitoring</h5>\n        <div class=\"card-body\">\n          <h6>Description:</h6>\n          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n          <div class=\"row\">\n            <div class=\"col\">\n              <h6>Accountable Executive:</h6>\n              <p>John Standard</p>\n              <h6>Accountable Executive Designee:</h6>\n              <p>Sarah Valentine</p>\n              <h6>Control Owner:</h6>\n              <p>Jay Watts</p>\n              <h6>Compliance Advisor:</h6>\n              <p>Nigel McRichie</p>\n            </div>\n            <div class=\"col\">\n              <h6>Domains:</h6>\n              <ul>\n                <li>US Branded Card</li>\n                <li>US Card Cobrand</li>\n                <li>US Small Business Card</li>\n              </ul>\n              <h6>Executed by:</h6>\n              <p>First Line</p>\n              <h6>ID Number:</h6>\n              <p>CTRL-020230515</p>\n            </div>\n          </div>\n\n          <div class=\"row\">\n\n            <div class=\"col\">\n              <h6>Control Requirements:</h6>\n              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n              <ul>\n                <li>Lorem ipsum dolor sit amet</li>\n                <li>Consectetur adipiscing elit</li>\n                <li>Sed do eiusmod tempor incididunt</li>\n              </ul>\n            </div>\n\n          </div>\n\n          <div class=\"row\">\n\n            <div class=\"col\">\n              <p style=\"text-align: center;\"> Step 1 of 4: Review Control Requirements</p>\n\n              <div class=\"progress\">\n                <div class=\"progress-bar-animated progress-bar-striped bg-info\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>\n              </div>\n\n            </div>\n\n          </div>\n\n          <br>\n          <div class=\"btn-group\">\n            <a role=\"button\" href=\"/\" class=\"btn btn-sm btn-outline-secondary\">Exit</a>\n            <a role=\"button\" href=\"MyMonitoring2\" class=\"btn btn-sm btn-outline-secondary\">Next</a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring/my-monitoring.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/my-monitoring/my-monitoring.component.ts ***!
+  \**********************************************************/
+/*! exports provided: MyMonitoringComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MyMonitoringComponent", function() { return MyMonitoringComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var MyMonitoringComponent = /** @class */ (function () {
+    function MyMonitoringComponent() {
+    }
+    MyMonitoringComponent.prototype.ngOnInit = function () {
+    };
+    MyMonitoringComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-my-monitoring',
+            template: __webpack_require__(/*! ./my-monitoring.component.html */ "./src/app/my-monitoring/my-monitoring.component.html"),
+            styles: [__webpack_require__(/*! ./my-monitoring.component.css */ "./src/app/my-monitoring/my-monitoring.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], MyMonitoringComponent);
+    return MyMonitoringComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring2/my-monitoring2.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/my-monitoring2/my-monitoring2.component.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL215LW1vbml0b3JpbmcyL215LW1vbml0b3JpbmcyLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring2/my-monitoring2.component.html":
+/*!**************************************************************!*\
+  !*** ./src/app/my-monitoring2/my-monitoring2.component.html ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <div class=\"card shadow-sm\">\n        <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Input Control Testing Results: TS2 180-day Charge Off Monitoring</h5>\n        <div class=\"card-body\">\n          <div class=\"row\">\n            <div class=\"col\">\n\n              <label for=\"lob\">Line of Business:</label>\n              <select class=\"form-control\" name=\"lob\">\n                <option></option>\n                <option>All</option>\n                <option>Mainstreet</option>\n                <option>Small Business</option>\n              </select>\n\n              <br>\n              <label for=\"type\">Monitoring Type:</label>\n              <select class=\"form-control\" name=\"type\">\n                <option></option>\n                <option>Audit</option>\n                <option>Design Effectiveness</option>\n                <option>Operational Effectiveness</option>\n              </select>\n\n              <br>\n              <label for=\"type\">Rating:</label>\n              <select class=\"form-control\" name=\"type\">\n                <option></option>\n                <option>Effective</option>\n                <option>Needs Strengthing</option>\n                <option>Failures</option>\n              </select>\n\n            </div>\n\n            <div class=\"col\">\n              <h6>Domains:</h6>\n              <ul>\n                <li>US Branded Card</li>\n                <li>US Card Cobrand</li>\n                <li>US Small Business Card</li>\n              </ul>\n              <h6>Performed by:</h6>\n              <p>David H.</p>\n              <h6>ID Number:</h6>\n              <p>CTRL-020230515</p>\n            </div>\n          </div>\n\n          <br>\n\n          <div class=\"row\">\n            <div class=\"col\">\n\n              <label for=\"textdemo\">Detailed Findings:</label>\n              <textarea type=\"text\" class=\"form-control\" name=\"textdemo\" rows=\"4\" placeholder=\"255 Character limit\"></textarea>\n\n            </div>\n          </div>\n          <br>\n\n          <div class=\"row\">\n            <div class=\"col\">\n\n              <label for=\"textdemo\">Comments:</label>\n              <textarea type=\"text\" class=\"form-control\" name=\"textdemo\" rows=\"4\" placeholder=\"255 Character limit\"></textarea>\n\n            </div>\n          </div>\n\n          <br>\n\n          <div class=\"row\">\n            <div class=\"col\">\n              <p style=\"text-align: center;\"> Step 2 of 4: Input Control Testing Results</p>\n              <div class=\"progress\">\n                <div class=\"progress-bar-animated progress-bar-striped bg-info\" role=\"progressbar\" style=\"width: 50%\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>\n              </div>\n            </div>\n          </div>\n          <br>\n          <div class=\"btn-group\">\n            <a role=\"button\" href=\"MyMonitoring\" class=\"btn btn-sm btn-outline-secondary\">Previous</a>\n            <a role=\"button\" href=\"/\" class=\"btn btn-sm btn-outline-secondary\">Save & Exit</a>\n            <a role=\"button\" href=\"MyMonitoring3\" class=\"btn btn-sm btn-outline-secondary\">   Next   </a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring2/my-monitoring2.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/my-monitoring2/my-monitoring2.component.ts ***!
+  \************************************************************/
+/*! exports provided: MyMonitoring2Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MyMonitoring2Component", function() { return MyMonitoring2Component; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var MyMonitoring2Component = /** @class */ (function () {
+    function MyMonitoring2Component() {
+    }
+    MyMonitoring2Component.prototype.ngOnInit = function () {
+    };
+    MyMonitoring2Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-my-monitoring2',
+            template: __webpack_require__(/*! ./my-monitoring2.component.html */ "./src/app/my-monitoring2/my-monitoring2.component.html"),
+            styles: [__webpack_require__(/*! ./my-monitoring2.component.css */ "./src/app/my-monitoring2/my-monitoring2.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], MyMonitoring2Component);
+    return MyMonitoring2Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring3/my-monitoring3.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/my-monitoring3/my-monitoring3.component.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL215LW1vbml0b3JpbmczL215LW1vbml0b3JpbmczLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring3/my-monitoring3.component.html":
+/*!**************************************************************!*\
+  !*** ./src/app/my-monitoring3/my-monitoring3.component.html ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <div class=\"card shadow-sm\">\n        <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Upload Supporting Documentation: TS2 180-day Charge Off Monitoring</h5>\n        <div class=\"card-body\">\n          <div class=\"row\">\n            <div class=\"col\">\n              <h6>Supported File Types:</h6>\n              <ul>\n                <li>PDF</li>\n                <li>PowerPoint</li>\n                <li>Excel</li>\n                <li>Word</li>\n              </ul>\n\n\n              <div class=\"custom-file\">\n                <input type=\"file\" class=\"custom-file-input\" id=\"inputGroupFile02\">\n                <label class=\"custom-file-label\" for=\"inputGroupFile02\" aria-describedby=\"inputGroupFileAddon02\">Choose file</label>\n              </div>\n\n            </div>\n          </div>\n\n          <br>\n\n          <div class=\"row\">\n            <div class=\"col\">\n\n              <label for=\"textdemo\">Comments:</label>\n              <textarea type=\"text\" class=\"form-control\" name=\"textdemo\" rows=\"4\" placeholder=\"255 Character limit\"></textarea>\n\n            </div>\n          </div>\n\n          <br>\n\n          <div class=\"row\">\n            <div class=\"col\">\n              <p style=\"text-align: center;\"> Step 3 of 4: Upload Supporting Documentation</p>\n              <div class=\"progress\">\n                <div class=\"progress-bar-animated progress-bar-striped bg-info\" role=\"progressbar\" style=\"width: 75%\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>\n              </div>\n            </div>\n          </div>\n          <br>\n          <div class=\"btn-group\">\n            <a role=\"button\" href=\"MyMonitoring2\" class=\"btn btn-sm btn-outline-secondary\">Previous</a>\n            <a role=\"button\" href=\"/\" class=\"btn btn-sm btn-outline-secondary\">Save & Exit</a>\n            <a role=\"button\" href=\"MyMonitoring4\" class=\"btn btn-sm btn-outline-secondary\">   Next   </a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring3/my-monitoring3.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/my-monitoring3/my-monitoring3.component.ts ***!
+  \************************************************************/
+/*! exports provided: MyMonitoring3Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MyMonitoring3Component", function() { return MyMonitoring3Component; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var MyMonitoring3Component = /** @class */ (function () {
+    function MyMonitoring3Component() {
+    }
+    MyMonitoring3Component.prototype.ngOnInit = function () {
+    };
+    MyMonitoring3Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-my-monitoring3',
+            template: __webpack_require__(/*! ./my-monitoring3.component.html */ "./src/app/my-monitoring3/my-monitoring3.component.html"),
+            styles: [__webpack_require__(/*! ./my-monitoring3.component.css */ "./src/app/my-monitoring3/my-monitoring3.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], MyMonitoring3Component);
+    return MyMonitoring3Component;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring4/my-monitoring4.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/my-monitoring4/my-monitoring4.component.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL215LW1vbml0b3Jpbmc0L215LW1vbml0b3Jpbmc0LmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring4/my-monitoring4.component.html":
+/*!**************************************************************!*\
+  !*** ./src/app/my-monitoring4/my-monitoring4.component.html ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col\">\n      <div class=\"card shadow-sm\">\n        <h5 class=\"card-header\" style=\"background-color: #D7F4F5;\">Review and Submit: TS2 180-day Charge Off Monitoring</h5>\n        <div class=\"card-body\">\n          <h6>Control Requirements:</h6>\n          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n          <ul>\n            <li>Lorem ipsum dolor sit amet</li>\n            <li>Consectetur adipiscing elit</li>\n            <li>Sed do eiusmod tempor incididunt</li>\n          </ul>\n          <div class=\"row\">\n            <div class=\"col\">\n              <h6>Line Of Business:</h6>\n              <p>Mainstreet</p>\n              <h6>Monitoring Type:</h6>\n              <p>Design Effectiveness</p>\n              <h6>Rating:</h6>\n              <p>Needs Improvement</p>\n                    </div>\n            <div class=\"col\">\n              <h6>Uploaded Files:</h6>\n              <ul>\n                <li>scanned_document_20181010.pdf</li>\n                <li>Detailed Findings.docx</li>\n                <li>Screenshots.pptx</li>\n              </ul>\n              <h6>Completed by:</h6>\n              <p>First Line</p>\n              <h6>Comments:</h6>\n              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n            </div>\n          </div>\n        <br>\n          <div class=\"row\">\n            <div class=\"col\">\n              <p style=\"text-align: center;\"> Step 4 of 4: Finish and Submit</p>\n              <div class=\"progress\">\n                <div class=\"progress-bar-animated progress-bar-striped bg-info\" role=\"progressbar\" style=\"width: 100%\" aria-valuenow=\"0\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>\n              </div>\n            </div>\n          </div>\n          <br>\n          <div class=\"btn-group\">\n            <a role=\"button\" href=\"MyMonitoring3\" class=\"btn btn-sm btn-outline-secondary\">Previous</a>\n            <a role=\"button\" href=\"/\" class=\"btn btn-sm btn-outline-secondary\">Save & Exit</a>\n            <a role=\"button\" href=\"/\" class=\"btn btn-sm btn-outline-secondary\">   Submit   </a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/my-monitoring4/my-monitoring4.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/my-monitoring4/my-monitoring4.component.ts ***!
+  \************************************************************/
+/*! exports provided: MyMonitoring4Component */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MyMonitoring4Component", function() { return MyMonitoring4Component; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var MyMonitoring4Component = /** @class */ (function () {
+    function MyMonitoring4Component() {
+    }
+    MyMonitoring4Component.prototype.ngOnInit = function () {
+    };
+    MyMonitoring4Component = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-my-monitoring4',
+            template: __webpack_require__(/*! ./my-monitoring4.component.html */ "./src/app/my-monitoring4/my-monitoring4.component.html"),
+            styles: [__webpack_require__(/*! ./my-monitoring4.component.css */ "./src/app/my-monitoring4/my-monitoring4.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], MyMonitoring4Component);
+    return MyMonitoring4Component;
 }());
 
 

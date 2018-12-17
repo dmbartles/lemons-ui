@@ -27,7 +27,7 @@
           <a class="nav-link" href="LandingPage">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="UnderConstruction">Controls</a>
+          <a class="nav-link" href="MyControls">Controls</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="UnderConstruction">Events</a>
@@ -70,15 +70,41 @@ feather.replace()
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
 <!-- Graphs -->
 <script>
-var ctx = document.getElementById("myChart");
-var myChart = new Chart(ctx, {
+new Chart(document.getElementById("myChart"), {
   type: 'bar',
   data: {
     labels: ["Sept","Oct","Nov","Dec"],
     datasets: [{
-      data: [5, 4, 2, 10],
+      data: [5, 4, 2, 11],
       backgroundColor: ['#87E8F8','#87E8F8','#87E8F8','#ff7f50'],
       borderColor: ['#87E8F8','#87E8F8','#87E8F8','#ff7f50'],
+      borderWidth: 1,
+      pointBackgroundColor: '#007bff'
+    }]
+  },
+  options: {
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true
+        }
+      }]
+    },
+    legend: {
+      display: false,
+    }
+  }
+});
+</script>
+<script>
+new Chart(document.getElementById("myChart2"), {
+  type: 'bar',
+  data: {
+    labels: ["January","Febuary","March","April","May","June","July","August","September","October","November","December"],
+    datasets: [{
+      data: [1, 13, 2, 3, 8, 6, 4, 7, 5, 4, 2, 11],
+      backgroundColor: ['#87E8F8','#ff7f50','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#ff7f50'],
+      borderColor:  ['#87E8F8','#ff7f50','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#87E8F8','#ff7f50'],
       borderWidth: 1,
       pointBackgroundColor: '#007bff'
     }]

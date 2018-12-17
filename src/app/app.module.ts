@@ -10,6 +10,10 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MyRisksComponent } from './my-risks/my-risks.component';
 import { SupportComponent } from './support/support.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
+import { MyMonitoringComponent } from './my-monitoring/my-monitoring.component';
+import { MyMonitoring2Component } from './my-monitoring2/my-monitoring2.component';
+import { MyMonitoring4Component } from './my-monitoring4/my-monitoring4.component';
+import { MyMonitoring3Component } from './my-monitoring3/my-monitoring3.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { UnderConstructionComponent } from './under-construction/under-construct
     ContactUsComponent,
     MyRisksComponent,
     SupportComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    MyMonitoringComponent,
+    MyMonitoring2Component,
+    MyMonitoring4Component,
+    MyMonitoring3Component
   ],
   imports: [
     BrowserModule,
